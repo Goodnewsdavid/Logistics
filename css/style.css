@@ -1,0 +1,262 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 0;
+}
+/* header section */
+  .head{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 11px 15px;
+    border: 10px solid #bf2424
+}
+.header{
+    width: 20%;
+}
+
+.head .header .logos{
+    display: flex;
+    flex-direction: column;
+}
+
+.head .header .logos .logo{
+    width: 100px;
+    height: 42px;
+}
+
+.head .nav{
+    width: 69%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.head .nav .nav-heading{
+    font-weight: bolder;
+}
+
+.head .nav .list-item button{
+    padding: 4px 10px;
+    background: #2C3237;
+    color: #fff;
+    font-weight: bolder;
+}
+
+/*filters*/
+.section-filter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.section-filter .refresh{
+    margin-right: 10px;
+}
+
+.section-filter .refresh .fa-rotate{
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.section-filter .groups{
+    display: flex;
+}
+
+.section-filter .groups .group {
+    margin-right: 15px;
+}
+
+.section-filter .groups .group select{
+    width: 135px;
+    height: 26px;
+}
+
+.section-filter .groups .group .cliente{
+    width: 200px;
+    height: 26px;
+}
+
+.section-filter .groups .group span{
+    font-weight: bolder;
+}
+
+.section-filter .groups .group .topic{
+    font-weight: 400;
+}
+
+.section-filter .groups .group .radio-selection{
+    font-weight: bolder;
+}
+
+.section-filter .groups .group button{
+    border-style: none;
+    outline: none;
+    color: #fff;
+    background: #2C3237;
+    padding: 4px 8px;
+    letter-spacing: 0.4px;
+}
+
+/* search-filter */
+
+.search-filter{
+    width: 96%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 30px 0 0;
+}
+
+.search-filter .groups{
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-filter .groups .fa-house{
+    font-size:20px;
+    margin-left:  10px;
+    cursor: pointer;
+}
+.search-filter .groups .group {
+    margin-right: 3px;
+}
+
+.search-filter .groups .group span{
+    font-weight: bolder;
+}
+/* datagrid */
+.demo-container{
+    margin-left: 20px;
+}
+
+.demo-container  .dx-row.dx-column-lines.dx-header-row{
+    background: #2C3237;
+    color: #fff
+  
+}
+
+.demo-container .dx-header-filter.dx-header-filter-empty{
+    color: #fff;
+}
+/* 
+chat */
+
+.chat {
+    max-width: 602px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+}
+
+.chat .navigation{
+    display:flex;
+    align-items:center;
+}
+
+.chat .navigation .list{
+    width: 20%;
+    font-size: 13px;
+    padding:18px 14px 17px 15px;
+    background-color:#0B2831;
+    color: #fff;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.chat .navigation .list.active{
+    background-color:#fff !important;
+    color:#0B2831 !important;
+}
+
+
+
+.chat .content{
+    width: 100%;
+    padding: 37px 20px 16px 20px;
+}
+
+.chat .content .profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+.chat .content .profile .profile_info{
+    margin-left: 5px;
+}
+
+.chat .content .profile .profile_info .profile_title{
+    color:#047857;
+}
+
+.chat .content .profile .profile_info .profile_name{
+    font-weight: bold;
+}
+
+.chat .content .message{
+    text-align: left;
+}
+
+.chat .content .send_message{
+    display: flex;
+    margin-top: 48px;
+}
+
+.chat .content .send_message .input{
+   border-radius: 24px;
+   width: 421px;
+   height: 35px;
+   background: rgba(241, 237, 237, 1);
+   display: flex;
+   align-items: center;
+}
+
+.chat .content .send_message .input input{
+    width: 93%;
+    border-style: none;
+    outline: none;
+    background-color: rgba(241, 237, 237, 1);
+    color: #8b8b8c;
+    letter-spacing: 0.4px;
+    padding-left: 6px;
+}
+
+
+.chat .content .send_message .input .fa-paperclip{
+    margin-left: 10px;
+    color: #8b8b8c;
+    font-size: 15px;
+    
+}
+
+.chat .content .send_message button{
+        background: #0B2831;
+        border-radius: 5px;
+        outline: none;
+        border-style: none;
+        color: #fff;
+        font-weight: bold;
+        margin-left: 5px;
+        cursor: pointer;
+}
+
+
+
+
